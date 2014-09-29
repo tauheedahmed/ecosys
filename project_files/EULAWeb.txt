@@ -1,0 +1,153 @@
+End User License Agreement 
+Welcome! It is important that you carefully read these terms before using the Emergency Preparedness System. 	These terms when accepted by you form a license ("License") agreement between Infotech Century LC ("ITC") and you 
+("You," "Your" Or "User") for the use of the Emergency Preparedness System, including any and all versions or variations of the Emergency Preparedness System and including any data maintained on system tables provided to you 
+by ITC (collectively, "Emergency Preparedness System" or the "Software").
+In order to use Emergency Preparedness System, you must first read and accept the terms of this License.
+
+1. What You Can Do Under This License 
+	a. Subject to all the terms of this License, ITC grants you a limited, non-exclusive, personal, non-sublicensable, non- assignable license to use the Emergency Preparedness System as available on this website.
+	b. Unless explicitly stated otherwise, any new features that augment or enhance the current Software, 
+including the release of new properties, shall be subject to terms of this License.
+2. What You Can't Do Under This License 
+You agree not to use the Software to intentionally or unintentionally violate any applicable local, state, 
+national or international law, including securities exchange and any regulations requirements, procedures or 
+policies in force from time to time relating to the Software; 
+
+3. More Do's and Don'ts
+3.1 This License allows you to access the Emergency Preparedness System from the internet. You 
+acknowledge and agree that this access has been licensed to you and has not been sold to you.  You also 
+acknowledge and agree that this access may become unavailable to you at any time for any reason, including 
+but not limited to, deliberate action by ITC.
+3.2 Except as expressly permitted in this License, you agree not to reverse engineer, de-compile, disassemble, 
+alter, duplicate, modify, rent, lease, loan, sublicense, make copies, create derivative works from, distribute or 
+provide others with the Software in whole or part, nor transmit or communicate the application over a 
+network.
+3.3 You agree that ITC owns all intellectual and proprietary rights to the system. Unless otherwise specified, 
+ITC retains all right, title and interest in and to the Software.
+4. Things You Need To Know When Using The Emergency Preparedness System
+4.1 You are responsible for paying all applicable taxes and other costs you may incur in connection with your 
+use of the Software including but not limited to all hardware and software costs and providing all equipment 
+and software necessary to connect to our web site and to use the Software via the Internet and any royalties or 
+other charges relating to the use of data owned by third parties.
+4.2 You acknowledge and agree that ITC may from time to time present programming fixes, updates and 
+upgrades to you, including version updates to the Software, with or without notification or any other 
+communication to you or to anyone else.
+
+
+5. ITC's Right to Market without Payment to Users 
+5.1 ITC reserves the right to market the software, and in doing so to indicate your use of the system as 
+reference without being liable for payment of any fees.
+
+6. ITC is not liable for any damage or loss of any kind resulting from use of the Software 
+
+6.1 ITC makes no representations or warranties of any kind concerning the quality, safety or suitability of this 
+software, either express or implied, including without limitation any implied warranties of merchantability, 
+fitness for a particular purpose, or non-infringement to the maximum extent permitted by applicable law, in 
+no event will ITC be liable for any indirect, punitive, special, incidental or consequential damages however 
+they may arise and even if ITC has been previously advised of the possibility of such damages.
+
+7. Applicable Law 
+7.1 This License as well as all disputes arising out of or in connection with this License shall be governed by 
+the laws of the State of Maryland, USA, without regard to or application of choice of law rules or principles. 
+7.2 Any dispute arising out of or in connection with this License, or in future agreements resulting there from, 
+shall be exclusively resolved before the competent court in State of Maryland, USA
+.
+8. Points To Consider For International Use 
+8.1 Recognizing the global nature of the Internet, you agree to comply with all local rules regarding on-line 
+conduct and acceptable data. Specifically, you agree to comply with all applicable laws regarding copyright 
+and the transmission of technical data exported from the country in which you reside. 
+9. Indemnification 
+9.1 YOU AGREE TO INDEMNIFY, HOLD HARMLESS AND DEFEND ITC, AND ITS SUBSIDIARIES, 
+AFFILIATES, OFFICERS, AGENTS, CO-BRANDERS OR OTHER PARTNERS, AND EMPLOYEES, AT 
+YOUR EXPENSE, AGAINST ANY AND ALL THIRD PARTY CLAIMS OR DEMANDS, ACTIONS, 
+PROCEEDINGS AND SUITS AND ALL RELATED LIABILITIES, DAMAGES, SETTLEMENTS, 
+PENALTIES, FINES COSTS AND EXPENSES (INCLUDING, WITHOUT LIMITATION, REASONABLE 
+ATTORNEY'S FEES AND OTHER DISPUTE RESOLUTION EXPENSES) INCURRED BY ITC, DUE TO 
+OR ARISING OUT OF YOUR USE OR MISUSE OF THE SOFTWARE, YOUR CONNECTION TO OTHER 
+USERS, YOUR VIOLATION OF THE LICENSE, OR YOUR VIOLATION OF ANY RIGHTS OF 
+ANOTHER. 
+10. Disclaimers of Warranties
+10.1 THE SOFTWARE IS PROVIDED "AS IS", AND ON AN "AS AVAILABLE" BASIS AND THERE 
+ARE NO CLAIMS, REPRESENTATIONS AND WARRANTIES MADE BY ITC, EITHER EXPRESS, 
+IMPLIED OR STATUTORY (TO THE EXTENT PERMITTED BY APPLICABLE LAW), WITH RESPECT 
+TO THE SOFTWARE, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF QUALITY, 
+PERFORMANCE, TITLE, NON- INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A 
+PARTICULAR PURPOSE, NOR ARE THERE ANY WARRANTIES CREATED BY COURSE OF 
+DEALING, COURSE OF PERFORMANCE OR TRADE USAGE.
+10.2 ANY EMERGENCY PLANS DEVELOPED, TESTED OR MAINTAINED THROUGH THE USE OF 
+THE SOFTWARE ARE DONE AT YOUR OWN DISCRETION AND RISK AND YOU WILL BE SOLELY 
+RESPONSIBLE FOR ANY DAMAGE OR PERSONAL LIABILITY THAT MAY OCCUR.
+
+
+11. Limitation of Liability 
+11.1 WARRANTY DISCLAIMER. YOU AGREE THAT YOUR USE OF THE SOFTWARE IS AT YOUR 
+OWN RISK. THE SOFTWARE IS PROVIDED TO YOU ON AN "AS IS," "WHERE IS," BASIS WITHOUT 
+WARRANTY OF ANY KIND, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT 
+LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE, ACCURACY, OR NON-INFRINGEMENT. ITC EXPLICITLY DISCLAIMS ALL LIABILITY 
+WITH REGARD TO THE ACCURACY, CONTENT OR AVAILABILITY OF INFORMATION FOUND ON 
+SITES THAT LINK TO OR FROM THE SOFTWARE. THIS DISCLAIMER OF WARRANTY 
+CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE AGREEMENT. ITC MAKES NO 
+WARRANTY THAT THE SOFTWARE IS FREE OF DEFECTS OR ERRORS, OR THAT ANY RESULTS 
+THAT MAY BE OBTAINED FROM ITS USE WILL BE RELIABLE. 
+
+
+11.2 LIMITATION OF LIABILITY. UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED 
+TO, NEGLIGENCE, SHALL ITC OR ANY OF ITS OFFICERS, DIRECTORS, SHAREHOLDERS, 
+EMPLOYEES, AGENTS, LICENSORS OR AFFILIATES BE LIABLE FOR ANY DIRECT, INDIRECT, 
+INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES THAT RESULT FROM THE USE OF, OR 
+THE INABILITY TO USE, THE SOFTWARE OR ANY PORTION OR FUNCTION THEREOF, EVEN IF 
+ITC HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+11.3  YOU UNDERSTAND AND AGREE THAT IN NO EVENT SHALL ITC BE LIABLE WHETHER IN 
+CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE WHETHER ACTIVE, PASSIVE OR 
+IMPUTED), PRODUCT LIABILITY OR STRICT LIABILITY, EVEN IF ITC HAS BEEN ADVISED OF 
+THE POSSIBILITY OF SUCH DAMAGES, FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+CONSEQUENTIAL, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO DAMAGES 
+FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES, RESULTING 
+FROM: 
+11.3.1 THE USE OR THE INABILITY TO USE THE SOFTWARE; 
+11.3.2 THE COST OF PROCUREMENT OF SUBSTITUTE GOODS, DATA, INFORMATION OR 
+SERVICES PURCHASED OR TRANSACTIONS ENTERED INTO THROUGH OR FROM THE USE OF 
+THE SOFTWARE;
+11.3.3 UNAUTHORISED ACCESS TO OR ALTERATION OF DATA;
+11.3.4 STATEMENTS OR CONDUCT OF ANY THIRD PARTY USING THE SOFTWARE; OR
+11.3.5 ANY OTHER MATTER RELATING TO THE USE OF THE SOFTWARE. IN NO EVENT SHALL 
+ITC'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES EXCEED THE AMOUNT OF ZERO US 
+DOLLARS ($0).
+ 
+12. Termination 
+12.1 It is you responsibility to comply with the terms of this License and to obey the laws of your jurisdiction. 
+Your rights under this License will terminate immediately and without prior notice if : you violate any term of 
+this License, including violating any applicable laws or rights of any third party including the intellectual 
+property rights of any such third party. You may be subject to legal action if you continue to use the 
+Emergency Preparedness System in violation of this License. 
+13. Trademarks and Trade Dress
+13.1 The EMS name and other EMS related properties are trademarks of ITC. .
+14. Miscellaneous 
+14.1 This License constitutes the entire understanding of you and ITC with respect to the Software and the 
+subject matter hereof. There are no understandings, agreements, conditions or representations, oral or written, 
+express or implied, with reference to the subject matter hereof that are not merged herein, expressly 
+referenced herein, or superseded hereby.
+14.2 The failure or delay of ITC to exercise or enforce any rights or provision of the License does not 
+constitute a waiver of such right or provision.
+14.3 All provisions which must survive in order to give effect to their meaning, shall survive any expiration or 
+termination of this License, including without limitation all of your representations, warranties and 
+indemnification obligations.
+14.4 Should any part of this License be held invalid by any court or tribunal, such invalidity shall not affect 
+the validity of any remaining part, which will remain in full force and effect as if this License had been 
+executed without that part having been held to be invalid.
+  
+15. Jurisdiction
+15.1. The laws of the State of Maryland will govern this Agreement without giving effect to any principles of 
+conflicts of law. You agree that any action at law or in equity arising out of or relating to these terms shall be 
+filed only in the state or federal courts located in Montgomery County, Maryland and you hereby consent 
+and submit to the personal jurisdiction of such courts for the purposes of litigating any such action.
+
+
+16. General
+16.1. This License Agreement, as modified from time to time, sets forth the entire understanding and 
+agreement between you and ITC with respect to the Software. If any provision or provisions shall be held to 
+be invalid, illegal, or unenforceable, the validity, legality, and enforceability of the remaining provisions shall 
+not be in any way affected or impaired. ITC shall not be liable for any delay or failure in performance under 
+this Agreement or interruption of service for any reason 
+

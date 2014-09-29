@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "EPSD", "EPSD.dbp", "{E84A8C3C-18AD-4128-9D9A-AF8780BD24B6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Windows Reports", "..\WindowsApplication1\Windows Reports.vbproj", "{DBC3BE32-9B5D-4D1D-911C-1213D2243D08}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EPSWeb", "http://localhost/EPSWeb/EPSWeb.vbproj", "{A4DC40FF-F12D-484D-9B13-46745C548DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSW", "http://localhost/EPSW/EPSW.csproj", "{98C97D64-1FE9-4DB3-A216-78E62A54D61A}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DBC3BE32-9B5D-4D1D-911C-1213D2243D08}.Debug.ActiveCfg = Debug|.NET
+		{DBC3BE32-9B5D-4D1D-911C-1213D2243D08}.Debug.Build.0 = Debug|.NET
+		{DBC3BE32-9B5D-4D1D-911C-1213D2243D08}.Release.ActiveCfg = Release|.NET
+		{DBC3BE32-9B5D-4D1D-911C-1213D2243D08}.Release.Build.0 = Release|.NET
+		{A4DC40FF-F12D-484D-9B13-46745C548DBD}.Debug.ActiveCfg = Debug|.NET
+		{A4DC40FF-F12D-484D-9B13-46745C548DBD}.Debug.Build.0 = Debug|.NET
+		{A4DC40FF-F12D-484D-9B13-46745C548DBD}.Release.ActiveCfg = Release|.NET
+		{A4DC40FF-F12D-484D-9B13-46745C548DBD}.Release.Build.0 = Release|.NET
+		{98C97D64-1FE9-4DB3-A216-78E62A54D61A}.Debug.ActiveCfg = Debug|.NET
+		{98C97D64-1FE9-4DB3-A216-78E62A54D61A}.Debug.Build.0 = Debug|.NET
+		{98C97D64-1FE9-4DB3-A216-78E62A54D61A}.Release.ActiveCfg = Release|.NET
+		{98C97D64-1FE9-4DB3-A216-78E62A54D61A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

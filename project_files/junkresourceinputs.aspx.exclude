@@ -1,0 +1,19 @@
+<%@ Page language="c#" Codebehind="ResourceInputs.aspx.cs" AutoEventWireup="false" Inherits="WebApplication2.ServiceInputs" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>ResourceInputs</title>
+		<meta name="GENERATOR" Content="Microsoft Visual Studio 7.0">
+		<meta name="CODE_LANGUAGE" Content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form id="ResourceInputs" method="post" runat="server">
+			<asp:DataGrid id="DataGrid1" style="Z-INDEX: 101; LEFT: 137px; POSITION: absolute; TOP: 156px" runat="server" Width="522px" Height="330px" GridLines="None">
+				<AlternatingItemStyle ForeColor="Navy" BackColor="#99CCFF"></AlternatingItemStyle>
+				<HeaderStyle Font-Bold="True" HorizontalAlign="Left" ForeColor="White" VerticalAlign="Top" BackColor="Navy"></HeaderStyle>
+			</asp:DataGrid>
+		</form>
+	</body>
+</HTML>

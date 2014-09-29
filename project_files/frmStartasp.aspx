@@ -1,0 +1,15 @@
+<%@ Page language="c#" Inherits="WebApplication2.frmStartasp" CodeFile="frmStartasp.aspx.cs" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>frmStart</title>
+		<meta content="Microsoft Visual Studio 7.0" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	</HEAD>
+	<body bgColor="white">
+		<form id="frmStart" method="post" runat="server">
+			<asp:label id="Label1" style="Z-INDEX: 100; LEFT: 91px; POSITION: absolute; TOP: 69px" runat="server" BorderStyle="None" Height="33px" Width="569px" Font-Size="Large" ForeColor="Navy" Font-Bold="True"></asp:label><asp:label id="lblMsg" style="Z-INDEX: 111; LEFT: 500px; POSITION: absolute; TOP: 116px" runat="server" Width="542px" ForeColor="Teal" Height="551px"></asp:label><asp:button id="btnChange" style="Z-INDEX: 110; LEFT: 140px; POSITION: absolute; TOP: 271px" tabIndex="5" runat="server" BorderStyle="None" Height="34px" Width="155px" ForeColor="White" Font-Bold="True" Text="OK" BackColor="Navy" onclick="btnContinue_Click"></asp:button><asp:label id="lblLic" style="Z-INDEX: 108; LEFT: 140px; POSITION: absolute; TOP: 405px" runat="server" BorderStyle="None" Height="20px" Width="325px" Font-Size="X-Small" ForeColor="Navy"></asp:label><asp:button id="btnContinue" style="Z-INDEX: 107; LEFT: 137px; POSITION: absolute; TOP: 317px" tabIndex="3" runat="server" BorderStyle="None" Height="34px" Width="331px" ForeColor="Navy" Font-Bold="True" Text="To Change User Id/Password, Click Here" BackColor="LightBlue" onclick="btnChange_Click"></asp:button><asp:textbox id="txtPassword" style="Z-INDEX: 104; LEFT: 140px; POSITION: absolute; TOP: 221px" tabIndex="2" runat="server" BorderStyle="Solid" Height="32px" Width="153px" Font-Size="X-Small" ForeColor="Navy" TextMode="Password" BorderColor="Navy"></asp:textbox><asp:label id="Label3" style="Z-INDEX: 103; LEFT: 48px; POSITION: absolute; TOP: 227px" runat="server" BorderStyle="None" Height="21px" Width="83px" Font-Size="Small" ForeColor="Navy">Password</asp:label><asp:textbox id="txtUserName" style="Z-INDEX: 101; LEFT: 140px; POSITION: absolute; TOP: 168px" tabIndex="1" runat="server" BorderStyle="Solid" Height="32px" Width="152px" Font-Size="X-Small" ForeColor="Navy" BorderColor="Navy"></asp:textbox><asp:label id="Label2" style="Z-INDEX: 102; LEFT: 70px; POSITION: absolute; TOP: 174px" runat="server" BorderStyle="None" Height="21px" Width="63px" Font-Size="Small" ForeColor="Navy">User Id</asp:label><asp:label id="lblError" style="Z-INDEX: 105; LEFT: 94px; POSITION: absolute; TOP: 35px" runat="server" Width="915px" ForeColor="Crimson"></asp:label><asp:button id="btnNewUsers" style="Z-INDEX: 106; LEFT: 138px; POSITION: absolute; TOP: 359px" tabIndex="5" runat="server" BorderStyle="None" Height="34px" Width="330px" ForeColor="Navy" Font-Bold="True" Text="If you do not have a User Id, Click Here" BackColor="LightBlue" Visible="False" onclick="btnNewUsers_Click"></asp:button></form>
+	</body>
+</HTML>

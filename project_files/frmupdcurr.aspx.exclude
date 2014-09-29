@@ -1,0 +1,15 @@
+<%@ Page language="c#" Codebehind="frmUpdCurr.aspx.cs" AutoEventWireup="false" Inherits="WebApplication2.frmUpdStep" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>frmAddProcedure</title>
+		<meta content="Microsoft Visual Studio 7.0" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	</HEAD>
+	<body bgColor="white" MS_POSITIONING="GridLayout">
+		<form id="frmAddProcedure" method="post" runat="server">
+			<asp:label id="lblContent" style="Z-INDEX: 100; LEFT: 2px; POSITION: absolute; TOP: 49px" runat="server" Width="675px" Height="30px" Font-Size="Small" ForeColor="Navy"> Function Title</asp:label><asp:label id="Label1" style="Z-INDEX: 112; LEFT: 59px; POSITION: absolute; TOP: 184px" runat="server" Width="90px" Height="28px" Font-Size="Small" ForeColor="Navy" BorderStyle="None">Description</asp:label><asp:textbox id="txtDesc" style="Z-INDEX: 111; LEFT: 159px; POSITION: absolute; TOP: 177px" runat="server" Width="545px" Height="128px" ForeColor="Navy" BorderStyle="Solid" BackColor="White"></asp:textbox><asp:dropdownlist id="DropDownList1" style="Z-INDEX: 110; LEFT: 193px; POSITION: absolute; TOP: 569px" runat="server" Width="343px" Height="201px" ForeColor="Navy" Visible="False"></asp:dropdownlist><asp:label id="Label9" style="Z-INDEX: 109; LEFT: 63px; POSITION: absolute; TOP: 571px" runat="server" Width="117px" Height="26px" Font-Size="Small" ForeColor="Navy" BorderStyle="None" Visible="False">Location Type</asp:label><asp:button id="btnCancel" style="Z-INDEX: 106; LEFT: 324px; POSITION: absolute; TOP: 324px" runat="server" Width="152px" Height="48px" ForeColor="White" BorderStyle="None" BackColor="Navy" Text="Cancel" Font-Bold="True"></asp:button><asp:label id="lblOrg" style="Z-INDEX: 105; LEFT: 2px; POSITION: absolute; TOP: 4px" runat="server" Width="914px" Height="30px" Font-Size="Small" ForeColor="Navy" Font-Bold="True">Organization Name Here</asp:label><asp:label id="lblProcName" style="Z-INDEX: 103; LEFT: 58px; POSITION: absolute; TOP: 137px" runat="server" Width="90px" Height="28px" Font-Size="Small" ForeColor="Navy" BorderStyle="None"> Step Name</asp:label><asp:textbox id="txtProcessName" style="Z-INDEX: 101; LEFT: 160px; POSITION: absolute; TOP: 128px" runat="server" Width="545px" Height="36px" ForeColor="Navy" BorderStyle="Solid" BackColor="White"></asp:textbox><asp:button id="btnAction" style="Z-INDEX: 102; LEFT: 158px; POSITION: absolute; TOP: 323px" runat="server" Width="152px" Height="48px" ForeColor="White" BorderStyle="None" BackColor="Navy" Text="Action" Font-Bold="True"></asp:button></form>
+	</body>
+</HTML>

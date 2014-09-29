@@ -1,0 +1,164 @@
+using System;
+using System.Collections;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Web;
+using System.Web.SessionState;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+
+namespace WebApplication2
+{
+	/// <summary>
+	/// Summary description for frmAddProcedure.
+	/// </summary>
+	public partial class frmUpdEventsD : System.Web.UI.Page
+	{
+		private static string strURL = 
+			System.Configuration.ConfigurationSettings.AppSettings["local_url"];
+		private static string strDB =
+			System.Configuration.ConfigurationSettings.AppSettings["local_db"];
+		public SqlConnection epsDbConn=new SqlConnection(strDB);
+		private String Id;
+		private int GetIndexOfVisibility (string s)
+		{
+			return (lstVisibility.Items.IndexOf (lstVisibility.Items.FindByValue(s)));
+		}				
+		protected void Page_Load(object sender, System.EventArgs e)
+		{
+			Id=Request.Params["Id"];
+            if (Session["startForm"].ToString() != "frmControl")
+            {
+                lstVisibility.Visible = false;
+                lblVis.Visible = false;
+            }
+
+			lblFunction.Text=Request.Params["btnAction"] + " Deliverable";
+			if (!IsPostBack)
+			{
+				loadVisibility();
+				btnAction.Text= Request.Params["btnAction"];
+				txtName.Text=Request.Params["Name"];				
+				txtDesc.Text=Request.Params["Desc"];
+                if (Request.Params["HHFlag"] == "1")
+                {
+                    cbxEvent.Checked = true;
+                }
+                else
+                {
+                    cbxEvent.Checked = false;
+                }
+				lstVisibility.BorderColor=System.Drawing.Color.Navy;
+				lstVisibility.ForeColor=System.Drawing.Color.Navy;
+				lstVisibility.SelectedIndex = GetIndexOfVisibility (Request.Params["Vis"]);
+			}
+		}
+
+		#region Web Form Designer generated code
+	override protected void OnInit(EventArgs e)
+	{
+	//
+	// CODEGEN: This call is required by the ASP.NET Web Form Designer.
+	//
+	InitializeComponent();
+	base.OnInit(e);
+	}
+		
+	/// <summary>
+	/// Required method for Designer support - do not modify
+	/// the contents of this method with the code editor.
+	/// </summary>
+	private void InitializeComponent()
+{    
+
+	}
+		#endregion
+
+		private void loadVisibility()
+		{
+			SqlCommand cmd=new SqlCommand();
+			cmd.Connection=this.epsDbConn;
+			cmd.CommandType=CommandType.StoredProcedure;
+			cmd.CommandText="ams_RetrieveVisibility";
+			cmd.Parameters.Add ("@Vis",SqlDbType.Int);
+			cmd.Parameters["@Vis"].Value=Session["OrgVis"].ToString();
+			DataSet ds=new DataSet();
+			SqlDataAdapter da=new SqlDataAdapter (cmd);
+			da.Fill(ds,"Visibility");
+			lstVisibility.DataSource = ds;			
+			lstVisibility.DataMember= "Visibility";
+			lstVisibility.DataTextField = "Name";
+			lstVisibility.DataValueField = "Id";
+			lstVisibility.DataBind();
+		}
+
+		protected void btnAction_Click(object sender, System.EventArgs e)
+		{
+			if (btnAction.Text == "Update") 
+			{
+				SqlCommand cmd = new SqlCommand();
+				cmd.CommandType=CommandType.StoredProcedure;
+				cmd.CommandText="wms_UpdateEvent";
+				cmd.Connection=this.epsDbConn;
+				cmd.Parameters.Add ("@Id",SqlDbType.Int);
+				cmd.Parameters["@Id"].Value=Int32.Parse(Id);
+				cmd.Parameters.Add ("@Name",SqlDbType.NVarChar);
+				cmd.Parameters["@Name"].Value=txtName.Text;
+				cmd.Parameters.Add ("@Desc",SqlDbType.NText);
+				cmd.Parameters["@Desc"].Value=txtDesc.Text;
+				cmd.Parameters.Add ("@Vis",SqlDbType.Int);
+				cmd.Parameters["@Vis"].Value=lstVisibility.SelectedItem.Value;
+                if (cbxEvent.Checked == true)
+                {
+                    cmd.Parameters.Add("@HHFlag", SqlDbType.Int);
+                    cmd.Parameters["@HHFlag"].Value = 1;
+                }
+				cmd.Connection.Open();
+				cmd.ExecuteNonQuery();
+				cmd.Connection.Close();
+			}
+			else if (btnAction.Text == "Add")
+			{
+				SqlCommand cmd=new SqlCommand();
+				cmd.CommandType=CommandType.StoredProcedure;
+				cmd.CommandText="wms_AddEvent";
+				cmd.Connection=this.epsDbConn;
+				cmd.Parameters.Add ("@ServicesId",SqlDbType.Int);
+				cmd.Parameters["@ServicesId"].Value=Session["ServicesId"].ToString();
+				cmd.Parameters.Add ("@Name",SqlDbType.NVarChar);
+				cmd.Parameters["@Name"].Value= txtName.Text;
+				cmd.Parameters.Add ("@Desc",SqlDbType.NText);
+				cmd.Parameters["@Desc"].Value= txtDesc.Text;
+				cmd.Parameters.Add ("@OrgId",SqlDbType.Int);
+				cmd.Parameters["@OrgId"].Value=Session["OrgId"];
+				cmd.Parameters.Add ("@Vis",SqlDbType.Int);
+				cmd.Parameters["@Vis"].Value=lstVisibility.SelectedItem.Value;
+                if (cbxEvent.Checked == true)
+                {
+                    cmd.Parameters.Add("@HHFlag", SqlDbType.Int);
+                    cmd.Parameters["@HHFlag"].Value = 1;
+                }
+				cmd.Connection.Open();
+				cmd.ExecuteNonQuery();
+				cmd.Connection.Close();
+			}
+			Done();
+		}
+
+		private void Done()
+		{
+			Response.Redirect (strURL + Session["CUpdEvent"].ToString() + ".aspx?");
+		}
+
+		protected void btnCancel_Click(object sender, System.EventArgs e)
+		{
+			Done();
+		}
+
+
+	}	
+
+}

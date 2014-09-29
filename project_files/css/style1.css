@@ -1,0 +1,87 @@
+﻿/* BEGIN YUI CSS RESET & FONT RESET */
+*{outline:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup,sub{line-height:-1px;vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+body{font:13px/1.22 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:99%;}
+.clrfix{zoom:1;}
+.clrfix:after{content:".";display:block;height:0;width:0;line-height:0;clear:both;visibility:hidden;}
+.clr{clear:both;}
+
+
+/* END CSS RESET */
+body{ color:#CCC; background:#000; }
+#storm { width:100%; height:100%; position:absolute; z-index:1;}
+#storm img { width:100%; height:100%; display:block; }
+#site-wrap { z-index:2; position:relative; left:10em; width:994px; margin:0 auto; background:#222; padding:14px; filter:alpha(opacity=80);opacity:0.8;}
+#the-content {  }
+#reports{ margin:14px 0; font-style:italic; }
+#nav { margin:14px 0; width:994px; }
+#nav ul { width:100%; }
+#nav ul li { margin: 0 14px 0 0; float:left; }
+#maindiv{position:relative; left:15px;}
+#pageDesc
+{
+	font-family:Verdana;
+	float:left;
+	margin:70%;
+}
+#logon 
+{
+	clear:left;
+	float:left;
+	padding:1em 1em 1em 1em;
+	border-style:solid;
+	border-color:White;
+	border-width:thin;
+}
+#headerSection {float:left;
+                padding: 2px;}
+#reportSection {float:left;
+                width: 10%;
+                margin: 1em;
+                border: solid 2px White;
+                }
+                blockquote { border : 2px solid #000; } 
+#gridSection 
+{
+	float:left;
+	margin: 1em;
+}
+#footer {
+		 clear: left;
+         padding: .5% .5% .5% .5%;
+         border-top-style:solid;
+         border-color:White;
+         border-width:thin;
+         background-color:Black;
+         margin:1em 5em 0 0; font-style:italic; font-size:x-small;
+        }
+#comment
+    {
+		clear:both;
+		float:left;
+		margin:1em 1em;
+		padding:1em 1em 1em 1em;
+	}
+	
+h1{ font-weight:bold; font-size:35px; color:"White"; clear:both;}
+h2{ font-weight:bold; font-size:28px; color:"White"; clear:both;}
+h3{ font-weight:bold; font-size:20px; color:"White"; clear:both;}
+h4{ font-weight:bold; font-size:15px; color:"White"; clear:both;}
+h5{ font-weight:bold; font-size:15px; color:"White"; clear:both;}
+h6{ font-weight:bold; font-size:15px; color:"White"; clear:both;}
+h7{ font-weight:bold; font-size:15px; color:"White"; clear:both;}
+
+p { margin:7px 0; }
